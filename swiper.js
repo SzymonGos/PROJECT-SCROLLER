@@ -29,9 +29,6 @@ class Swiper {
         const diffX = this.initialX - currentX;
         const diffY = this.initialY - currentY;
 
-        console.log({diffX});
-        console.log({diffY});
-
         if (Math.abs(diffX) > Math.abs(diffY)) {
             //axis Y
             if(diffX > 0){
